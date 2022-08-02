@@ -1,0 +1,13 @@
+1. Kenapa kita perlu belajar struktur direktori linux?
+2. Praktek
+	1.Tuliskan alamat dari folder Mail yang berada didalam folder yxz (abaikan posisi).
+	2.Tuliskan alamat folder howto yang berada didalam doc jika posisi kita sedang berada di dalam folder share.
+	3.Tuliskan alamat folder packages yang berada didalam doc jika posisi kita sedang berada di dalam folder X11R6
+
+Answer
+1. Mengapa kita perlu belajar struktur direktori linux adalah karena dalam OS linux setiap folder folder yang ada didalam struktur direktori linux memiliki perannya masing masing, sama seperti windows yang memiliki folder khusus  yang berisi konfigurasi system seperti folder Win32.
+
+2.
+	1. /yxz/mail
+	2. /share/doc/howto
+	3. /usr/share/doc/packages

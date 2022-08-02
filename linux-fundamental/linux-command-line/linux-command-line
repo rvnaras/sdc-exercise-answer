@@ -1,0 +1,24 @@
+1. Kenapa kita perlu mempelajari perintah dasar command line?
+2.	Pertama-tama login sebagai user masing-masing.
+	Pindahlah ke direktori /tmp.
+	Buatlah 1 buah file bernama test1.txt yang berisi “Sekolah DevOps Cilsy” didalam folder anda berada sekarang.
+	Buatlah 1 folder bernama latihan didalam folder Anda berada sekarang.
+	Kopikan file test1.txt tersebut ke dalam folder latihan yang barusan anda buat dengan nama test2.txt.
+	Masih dalam posisi Anda sekarang berada (jangan pindah folder), lakukan cut-paste file test2.txt yang ada didalam folder latihan ke folder /home/ dengan nama baru test3.txt.
+	Sekarang pindahlah ke home direktori anda lagi.
+	Hapuslah file test1.txt yang ada di /tmp tanpa anda pindah folder ke /tmp terlebih dahulu.
+	Hapuslah folder latihan yang ada di /tmp tanpa anda pindah folder ke /tmp terlebih dahulu.
+	Kumpulkan hasilnya ke instruktur.
+
+Answer
+1. Karena dalam pengoperasian linux yang berbasi CLI kita harus tau input apa yang harus kita masukan agar sistem dapat memproses kemauan kita
+
+2.
+	cd /tmp
+	touch test1.txt, vi test1.txt
+	mkdir latihan
+	cp /tmp/test1.txt /tmp/latihan/test2.txt
+	mv /tmp/latihan/test2.txt /home/test.txt
+	cd /home/
+	rm -r /tmp/test1.txt
+	rmdir -r /tmp/latihan

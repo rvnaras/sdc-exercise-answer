@@ -1,0 +1,12 @@
+1. Kenapa kita perlu mempelajari manajemen layanan
+2.
+	1.Install layanan apache2
+	2.Jika sudah, buatlah layanan tersebut agar auto start setiap booting
+	3.Restart layanan tersebut dan cek statusnya sudah running
+
+Answer
+1.Karena didalam sebuah server terdapat beberapa layanan yang diinstall didalam server tersebut, kita sebagai administrator diharuskan untuk mengetahui bagaimana caranya menjalakankan, mengecek dan mematikan layanan tersebut jika dibutuhkan.
+2.
+	1.apt-get install apache2
+	2.systemctl enable apache2
+	3.systemctl restart apache2, systemctl status apache2

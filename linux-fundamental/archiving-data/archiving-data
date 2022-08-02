@@ -1,0 +1,14 @@
+1. Kenapa kita perlu mempelajari archiving file?
+2. 	
+	1.Pertama-tama buatlah 5 buah file bernama test1, test2, test3, test4, dan test5.
+	2.Buatlah 1 archive bzip2 bernama latihan4.tar.bz2 yang berisi file test1 sampai test4 saja. Test5 tidak.
+	3.Setelah itu hapus file test4 yang ada didalam file archive yang sudah dibuat dan gantikan dengan file test5.
+	4.Terakhir ekstraklah seluruh isi archive latihan4.tar.bz2 ke folder /home.
+
+Answer
+1.Karena dengan archiving data kita dapat membuat sekumpulan atau sebuah file ukurannya menjadi lebih kecil dan dapat memembuat file itu menjadi terjaga atau immuteable
+2.
+	1.touch test1 test2 test3 test4 test5
+	2.tar cjf latihan4.tar.bz2 file[1-4] 
+	3.bzip2 -d latihan4.tar.bz2, tar --delete --file latihan4.tar.bz2 file4, tar --update --file latihan4.tar.bz2 file5, bzip2 latihan4.tar.bz2
+	4. tar xjf latihan4.tar.bz2 --directory /home/

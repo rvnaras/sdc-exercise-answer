@@ -1,0 +1,7 @@
+1. Jelaskan kembali perbedaan Linux, GNU, Sistem Operasi, dan Distro?
+2. Kenapa Linux lebih cocok untuk server dibanding sistem operasi lain?
+
+Answer
+1. Perbedaan dari Linux, GNU, OS(Sistem Operasi) dan Distro adalah jika linux sebenarnya hanyalah sebuah kernel yang berjalan dibawah sistem operasi yang memiliki beberapa komponen seperti bootloader, kernel, dll. Sedangkan GNU adalah project yang dijalankan oleh Richard Stallman berupa sekumpulan tools, software, aplikasi dan komponen lainnya sebagai pelengkap OS, jika Linux dan GNU digabung makan akan menjadi sebuah OS yang menyeluruh. Yang terakhir adalah Distro, distro sendiri adalah sebuah distribusi linux yang memiliki base OS yaitu GNU/Linux yang sudah dimodifikasi sesuai dengan kebutuhan distribusinya, misal distro yang bertujuan hacking ada Kali Linux, Android sebagai distro smartphone dan CentOS yang dikhususkan pada penggunaan server.
+
+2. Mengapa linux lebih cocok dibanding OS lain?, karena keunggulan linux memiliki sistem operasi yang jauh lebih ringan dan stabil jika dibandingkan dengan windows server karena memiliki lebih sedikit bloatware, selain itu banyaknya dukungan dari community kecil dan besar yang turut berkontribusi dalam pengembangan linux mulai dari sisi service, tools, aplikasi dan keamanan yang juga membuat dokumentasi linux menjadi tersebar dimanamana.

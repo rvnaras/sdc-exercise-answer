@@ -1,0 +1,27 @@
+1. Kenapa kita perlu mempelajari manipulasi teks dan file?
+2.
+	1.Hanya tampilkan baris yang mengandung kata “cilsy” dan berekstensi “.mp3” saja.
+	2.Tidak boleh ada baris yang mengandung “#” walaupun baris tersebut sudah betul mengandung kata “cilsy” dan berekstensi “.mp3”.
+	3.Hasil saringan file dimasukkan ke file baru bernama hasil1.txt.
+	4.Anda hanya boleh menggunakan teknik pipeline, grep, dan redirection untuk mencapai hal tersebut.
+
+Answer
+1. Karena didalam pengeoperasian linux kita terkadang harus melakukan editing pada beberapa atau pencarian sebuah value yang terkandung didalam suatu file
+
+2.
+	1.ls /home/latihan1.txt | grep cilsy | grep mp3
+	2.ls /home/latihan1.txt | grep cilsy | grep mp3 | grep -v "#"
+	3.cat latihan1.txt | grep cilsy | grep mp3 | grep -v "#" > hasil.txt
+
+
+1. Kenapa kita perlu mempelajari manipulasi teks dan file?
+2.
+	1.Tampilkan baris yang harus berawalan angka apapun 1 digit (tidak boleh lebih) kemudian diikuti oleh tulisan cilsy. Masukkan hasilnya ke file baru bernama hasil2-1.txt.
+	2.Tampilkan baris yang harus berawalan angka apapun 1 digit atau lebih yang diikuti oleh tulisan cilsy. Masukkan hasilnya ke file baru bernama hasil2-2.txt.
+	3.Tampilkan baris yang harus berawalan angka apapun 1 digit (tidakboleh lebih) yang diikuti oleh tulisan cilsy dan harus diakhiri oleh tanda “@”. Masukkan hasilnya ke file baru bernama hasil2-3.txt.
+	4.Anda hanya boleh menggunakan teknik regular expression, grep, dan redirection untuk mencapai hal tersebut.
+
+Answer
+1. ---
+2.	
+	1.

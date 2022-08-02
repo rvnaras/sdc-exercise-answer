@@ -1,0 +1,12 @@
+1. Kenapa kita perlu mempelajari manajemen paket?
+2.
+	1.Carilah aplikasi dengan kata kunci "network mapper"
+	2.Install aplikasi tersebut dan cek versi berapa aplikasinya
+	3.Hapus aplikasi tersebut
+
+Answer
+1.Karena didalam penggunaan linux kita terkadang memerlukan beberapa tools atau aplikasi yang tidak ada didalam instalasi os, maka dari itu manajemen paket dibutuhkan untuk menambahkan, update atau menghapus tools atau aplikasi tersebut.
+2.
+	1.apt-cache search “network mapper"
+	2.dpkg -l | grep "network mapper"
+	3.apt-get remove "network mapper"
