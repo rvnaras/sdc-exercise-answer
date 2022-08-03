@@ -1,0 +1,7 @@
+1. Jelaskan perbedaan dari ketiga model pengiriman dalam cloud computing!
+2. Apa perbedaan antara public cloud dan private cloud?
+
+Answer
+1. Perbedaa dari model cloud computing adalah didalam model SaaS yaitu user tidak harus repot repot memikirkan infrastructure dan management lainnya yang membuat model ini adalah model paling tidak rumit karena user hanya menggunakan aplikasi yang telah disediakan oleh provider, kedua PaaS adalah layanan yang menggunakan platform yang telah disediakan oleh provider tetapi user tetap harus melakukan manajemen terhadap beberapa layer seperti application dan data, yang ketiga adalah IaaS adalah model pengiriman yang mana user dapat melakukan kustomisasi paling banyak terhadap infrastructure yang disewa dari provider mulai dari manajemen aplikasi, runtime hingga pemilihan os. Dari ketiga model tersebut yang membedakan cloud separation of responsibilites dari on premise model adalah user tidak harus memanage infrastruktur mulai dari perangkat keras, jaringan, hingga virtualisasi.
+
+2. Perbedaan public cloud dan private cloud adalah jika public cloud adalah cloud yang dapat digunakan oleh masyarakat umum yang biasanya penyedia layanan akan memanage semua infrastruktur dan pengguna hanya tinggal menggunakan layanan platform yang disediakan, sedangkan private cloud adalah model cloud yang disediakan untuk memenuhi kebutuhan spesifik dari suatu perusahaan atau organisasi dimana semua management dilakukan oleh user sendiri terhadap perangkat yang dimiliki.

@@ -1,0 +1,8 @@
+1. Apa peran AMI dan instance pada Amazon EC2?
+2. Jelaskan kembali fungsi dari keypair!
+
+Answer
+1. Peran AMI dan instance pada amazon ec2 adalah keduanya memiliki peran penting yaitu AMI sebagai image catalog yang juga bersisi konfigurasi software seperti os, aplikasi, dll. Sedangkan instance adalah konfigurasi perangkat keras yang memiliki peran untuk memanage kebutuhan seperti jumlah core, ram, storage, dll.
+2. Fungsi dari keypair adalah untuk mengamankan koneksi antara client dengan instance terkait menggunakan SSH dimana koneksi tersebut akan dienkripsi dan dapat terhindar dari spoofing atau MiTM atau serangan lainnya.
+
+

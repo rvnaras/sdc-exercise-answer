@@ -1,0 +1,4 @@
+1. Apa yang menjadi kelebihan dari elastic beanstalk dibanding dengan EC2?
+
+Answer
+1. Kelebihan dari elastic beanstalk daripada EC2 adalah EB dapat melakukan deployment aplikasi dengan cepat jika dibanding dengan EC2, jika dengan EB kita hanya perlu menyiapkan source code dan environment bahasa yang digunakan dalam source code untuk deployment tanpa harus memikirkan tentang konfigurasi instance, SG, dll.
